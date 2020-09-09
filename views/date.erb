@@ -3,3 +3,13 @@
   <h1>"Today"</h1>
   <p>"The date is Wednesday, September 9, 2020"</p>
 </html>
+
+<html>
+  <head>
+    <title>date</title>
+  </head>
+  <body>
+    <h1>Today</h1>
+    <p>The date is <%= Time.now.strftime("%A, %B %d, %Y") %></p>
+  </body>
+</html>
